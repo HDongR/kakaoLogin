@@ -57,7 +57,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   _initKakaoTalkInstalled() async {
     final installed = await isKakaoTalkInstalled();
     setState(() {
-      _isKakaoTalkInstalled = installed;
+      _isKakaoTalkInstalled = false;
     });
   }
 

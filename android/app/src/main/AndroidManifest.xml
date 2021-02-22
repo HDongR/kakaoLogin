@@ -38,7 +38,7 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-       <activity android:name="kotlin.com.kakao.sdk.flutter.AuthCodeCustomTabsActivity">
+       <activity android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity">
            <intent-filter android:label="flutter_web_auth">
                <action android:name="android.intent.action.VIEW" />
                <category android:name="android.intent.category.DEFAULT" />
